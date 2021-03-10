@@ -1,0 +1,426 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/jerome/_KIMOCHI/_MOCHI/_workspace/pancake-swap-core/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1614406196937,
+      "contentHash": "3d2b948a9266ee66b6e739de97c7e6e9",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/jerome/_KIMOCHI/_MOCHI/_workspace/pancake-swap-core/contracts/MochiPair.sol": {
+      "lastModificationDate": 1614470304095,
+      "contentHash": "fda2e83f7ca22987c635b05e792b8eec",
+      "sourceName": "contracts/MochiPair.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IMochiPair.sol",
+        "./MochiERC20.sol",
+        "./libraries/Math.sol",
+        "./libraries/UQ112x112.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IMochiFactory.sol",
+        "./interfaces/IMochiCallee.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "MochiPair"
+      ]
+    },
+    "/Users/jerome/_KIMOCHI/_MOCHI/_workspace/pancake-swap-core/contracts/libraries/Math.sol": {
+      "lastModificationDate": 1614406196938,
+      "contentHash": "bee6c1959728d5d42c14151076cebd83",
+      "sourceName": "contracts/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/jerome/_KIMOCHI/_MOCHI/_workspace/pancake-swap-core/contracts/libraries/UQ112x112.sol": {
+      "lastModificationDate": 1614406196938,
+      "contentHash": "2a703244e9f645c6fb297a983ce7c9c4",
+      "sourceName": "contracts/libraries/UQ112x112.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "UQ112x112"
+      ]
+    },
+    "/Users/jerome/_KIMOCHI/_MOCHI/_workspace/pancake-swap-core/contracts/interfaces/IMochiERC20.sol": {
+      "lastModificationDate": 1614469652756,
+      "contentHash": "76b0c38f2e8ee77eda9082f76529c19b",
+      "sourceName": "contracts/interfaces/IMochiERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IMochiERC20"
+      ]
+    },
+    "/Users/jerome/_KIMOCHI/_MOCHI/_workspace/pancake-swap-core/contracts/libraries/SafeMath.sol": {
+      "lastModificationDate": 1614406196938,
+      "contentHash": "a65356c329efeffba75210664f5df3cd",
+      "sourceName": "contracts/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/jerome/_KIMOCHI/_MOCHI/_workspace/pancake-swap-core/contracts/test/ERC20.sol": {
+      "lastModificationDate": 1614470360128,
+      "contentHash": "5d57dd4c4dd7f48f06b0f9bf86be2d1d",
+      "sourceName": "contracts/test/ERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../MochiERC20.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/jerome/_KIMOCHI/_MOCHI/_workspace/pancake-swap-core/contracts/Migration.sol": {
+      "lastModificationDate": 1614406196936,
+      "contentHash": "6f3dc9936ec2cff1666c76993e7d6531",
+      "sourceName": "contracts/Migration.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.25 <0.7.0"
+      ],
+      "artifacts": [
+        "Migrations"
+      ]
+    },
+    "/Users/jerome/_KIMOCHI/_MOCHI/_workspace/pancake-swap-core/contracts/interfaces/IMochiPair.sol": {
+      "lastModificationDate": 1614469905109,
+      "contentHash": "73b4460785062c93c198ec7de2031d74",
+      "sourceName": "contracts/interfaces/IMochiPair.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IMochiPair"
+      ]
+    },
+    "/Users/jerome/_KIMOCHI/_MOCHI/_workspace/pancake-swap-core/contracts/MochiERC20.sol": {
+      "lastModificationDate": 1614470217427,
+      "contentHash": "99f659316ba7f927b37ae824fd4c968a",
+      "sourceName": "contracts/MochiERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IMochiERC20.sol",
+        "./libraries/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "MochiERC20"
+      ]
+    },
+    "/Users/jerome/_KIMOCHI/_MOCHI/_workspace/pancake-swap-core/contracts/interfaces/IMochiFactory.sol": {
+      "lastModificationDate": 1614470085231,
+      "contentHash": "7bd6b893dbe9d10a8338db2804a35004",
+      "sourceName": "contracts/interfaces/IMochiFactory.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IMochiFactory"
+      ]
+    },
+    "/Users/jerome/_KIMOCHI/_MOCHI/_workspace/pancake-swap-core/contracts/interfaces/IMochiCallee.sol": {
+      "lastModificationDate": 1614469980489,
+      "contentHash": "cc8f0b2e9b90946ea15562921deafa1c",
+      "sourceName": "contracts/interfaces/IMochiCallee.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IMochiCallee"
+      ]
+    }
+  }
+}
