@@ -1,7 +1,7 @@
 {
   "name": "@mochiswap/core",
   "description": "🎛 Core contracts for the MochiSwap protocol",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://mochiswap.io",
   "repository": {
     "type": "git",
